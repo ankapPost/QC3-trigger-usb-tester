@@ -10,8 +10,8 @@ DP and DM pins are also connected to arduino pins 4 and 5 to be able to set Vbas
 The Arduino code implementation is mainly based on [QC3Control](https://github.com/vdeconinck/QC3Control) and Adafruit_SSD1306 OLED display Arduino libraries.
 
 ## Prototype photo #1
-![Prototype photo #1:](https://github.com/ankapPost/QC3-trigger-usb-tester/blob/master/pics/20200508_003818.jpg)
+![Prototype photo #1:](https://github.com/ankapPost/QC3-trigger-usb-tester/blob/master/pics/20200508_003848.jpg)
 
 ## Prototype photo #2
-![Prototype photo #2:](https://github.com/ankapPost/QC3-trigger-usb-tester/blob/master/pics/20200508_003848.jpg)
+![Prototype photo #2:](https://github.com/ankapPost/QC3-trigger-usb-tester/blob/master/pics/20200508_003818.jpg)
 
