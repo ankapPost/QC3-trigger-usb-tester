@@ -9,13 +9,17 @@ class ToggleButton {
   typedef void (*callback_t)(ToggleButton *btn);
   callback_t callback;
 
-  public:  ToggleButton(int p, callback_t cb) {
+  public:
+  // Constructor
+  ToggleButton(int p, callback_t cb)
+  {
       pin = p;
       pinMode(pin, INPUT_PULLUP);
     //    this->_onPressCallback = callback;
       callback = cb;
   }
-  public: void read() {
+  void read()
+  {
     int reading = digitalRead(pin);
     if (reading != lastButtonState) {
       lastDebounceTime = millis();
